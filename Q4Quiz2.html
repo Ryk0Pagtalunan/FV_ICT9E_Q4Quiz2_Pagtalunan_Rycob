@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="q4quiz2.css">
+	<title>Q4Quiz2</title>
+</head>
+<body>
+<br>
+<center>
+<h1 id="title">Score Analyzer</h1>
+<br><br>
+<details ontoggle="message()">
+	<summary id="inst">Click to Start Calculating</summary>
+		<i id="inst">Input your scores below the given subject and click the button "Calculate"</i>
+	</summary>
+
+		<br><br>
+		<center>
+		<div class="row">
+			<img id="img1" src="https://i.pinimg.com/736x/06/6d/01/066d01021f6941465b30837fd3a89e1e.jpg">
+			<img id="img2" src="https://i.pinimg.com/736x/82/80/f3/8280f3389b307f26d24c2f869eb9614d.jpg">
+			<img id="img3" src="https://i.pinimg.com/736x/c4/a0/32/c4a03241ade3576a03b8426cfaebfc99.jpg">
+		</div>
+		<br>
+		<div class="row">
+			<input type="number" class="form-control" id="mathnum" placeholder="~input your score~">
+			<input type="number" class="form-control" id="scinum" placeholder="~input your score~">
+			<input type="number" class="form-control" id="engnum" placeholder="~input your score~">
+		</div>
+		<br><br>
+		<button type="button" class="form-control" id="Calculatebut" onclick="Scores()">Calculate</button>
+</center>
+</details>
+</center>
+
+
+<script>
+function Scores() {
+let a = parseInt(document.getElementById("mathnum").value);
+let b = parseInt(document.getElementById("scinum").value);
+let c = parseInt(document.getElementById("engnum").value);
+var score = (a+b+c)/3;
+var scoreave = score.toFixed(2);
+
+  if (scoreave >= 94) {
+    window.alert("~Average score " + scoreave + ",‎ " + "Excellent~");
+  } else if (scoreave >= 87 && scoreave <= 93.99) {
+    window.alert("~Average score " + score + ",‎ " + "Above Satisfactory~");
+  } else if (scoreave >= 80 && scoreave <= 86.99) {
+    window.alert("~Average score " + score + ",‎ " + "Satisfactory~");
+  } else if (scoreave >= 75 && scoreave <= 79.99) {
+    window.alert("~Average score " + score + ",‎ " + "Needs Improvement~");
+  } else if (scoreave >= 70 && scoreave <= 74.99) {
+    window.alert("~Average score " + score + ",‎ " + "Poor~");
+  }
+}
+
+//got the parseint from MDN Web Docs (simpler code :D)
+</script>
+</body>
+</html>

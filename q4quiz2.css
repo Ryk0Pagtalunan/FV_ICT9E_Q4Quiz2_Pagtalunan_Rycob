@@ -1,0 +1,90 @@
+#title{
+	background-image: linear-gradient(#dedead, #897746);
+	width: 675px;
+	height: 45px;
+	color: white;
+	font-family: monospace;
+	font-size: 40px;
+	color: rgba(14, 24, 213, 0.8);
+	opacity: 0.75;
+}
+body{
+	background-image: url(https://i.pinimg.com/originals/a8/09/94/a8099418b2137e113c808fff5df2dc2a.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#inst{
+	font-family: monospace;
+	color: white;
+	background-image: linear-gradient(#664526, #8c6735);
+	width: 350px;
+	height: 20px;
+	opacity: 0.8;
+}
+#img1{
+	width: 235px;
+	height: 200px;
+	background-image: linear-gradient(#664526, #8c6735);
+	padding: 2.5px;
+	border: 2.5px solid #897746;
+	margin-left: 100px;
+}
+#img2{
+	width: 235px;
+	height: 200px;
+	background-image: linear-gradient(#664526, #8c6735);
+	padding: 2.5px;
+	border: 2.5px solid #897746;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#img3{
+	width: 235px;
+	height: 200px;
+	background-image: linear-gradient(#664526, #8c6735);
+	padding: 2.5px;
+	border: 2.5px solid #897746;
+	margin-right: 100px;
+}
+#mathnum{
+	background-image: linear-gradient(#dedead, #8c6735);
+	border: 0px;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+	width: 235px;
+	text-align: center;
+	margin-left: 100px;
+}
+#scinum{
+	background-image: linear-gradient(#dedead, #8c6735);
+	border: 0px;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	width: 235px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#engnum{
+	background-image: linear-gradient(#dedead, #8c6735);
+	border: 0px;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+	width: 235px;
+	text-align: center;
+	margin-right: 100px;
+}
+#Calculatebut{
+	background-image: linear-gradient(#dedead, #8c6735);
+	border: 0px;
+	font-family: Avantgarde;
+	color: black;
+	font-weight: bold;
+	width: 175px;
+	text-align: center;
+	margin-right: 50px;
+}
